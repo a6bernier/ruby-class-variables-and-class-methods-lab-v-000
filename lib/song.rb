@@ -23,9 +23,6 @@ class Song
     @@genres
   end
 
-
-#iterate through @@artists to remove duplicates
-#return only unique artists
   def self.artists
     @@artists.uniq
   end
