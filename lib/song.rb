@@ -42,7 +42,10 @@ class Song
         genre_hash[genre] << count
       else
         genre_hash[genre] << count
-
+      end
+    end
   end
 
+
+  
 end
