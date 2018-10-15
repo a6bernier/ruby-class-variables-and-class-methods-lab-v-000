@@ -28,7 +28,6 @@ class Song
   end
 
 #returns hash in which the keys are the names of each genre and value is the number of songs in each genre
-  #each genre name key should point to a value that is the number of songs that have that genre
 #need to iterate over @@genres and populate a hash with key/value pairs
   #need to check if hash already contains a key of a particular genre
       #if so increment the value of that key by one
@@ -36,16 +35,14 @@ class Song
 
   def self.genre_count
     genre_hash = {}
-    count = 1
     @@genres.each do |genre|
       if genre_hash[genre]
-        count += 1
-        genre_hash[genre] << count
+        genre_hash[genre]
       else
-        genre_hash[genre] << count
+        genre_hash[genre]
       end
     end
-    genre_hash
+    genre_hash.count
   end
 
 
