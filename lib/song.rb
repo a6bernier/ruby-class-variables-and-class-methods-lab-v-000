@@ -27,7 +27,7 @@ class Song
     @@artists.uniq
   end
 
-#returns hash in which the keys are the names of each genre
+#returns hash in which the keys are the names of each genre and value is the number of songs in each genre
   #each genre name key should point to a value that is the number of songs that have that genre
 #need to iterate over @@genres and populate a hash with key/value pairs
   #need to check if hash already contains a key of a particular genre
