@@ -34,15 +34,22 @@ class Song
       #otherwise create a new key/value pair
 
   def self.genre_count
-    genre_hash = {}
-    @@genres.count do |genre|
-      if genre_hash[genre]
-        genre_hash[genre]
-      else
-        genre_hash[genre]
-      end
-    end
+
   end
+
+
+
+    # def self.genre_count
+    #   genre_hash = {}
+    #   @@genres.count do |genre|
+    #     if genre_hash[genre]
+    #       genre_hash[genre] << count += 1
+    #     else
+    #       genre_hash[genre]
+    #     end
+    #   end
+    # end
+
 
 
 
