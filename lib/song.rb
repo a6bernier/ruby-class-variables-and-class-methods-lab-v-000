@@ -35,7 +35,7 @@ class Song
       #otherwise create a new key/value pair
 
   def self.genre_count
-
+    @@genres.each do |
   end
 
 end
