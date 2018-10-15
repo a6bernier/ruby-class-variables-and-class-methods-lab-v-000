@@ -27,10 +27,7 @@ class Song
 #iterate through @@artists to remove duplicates
 #return only unique artists
   def self.artists
-    if @@artists.each do |name|
-      name.uniq
-    else
-      @@artists
+    @@artists.uniq
   end
 
 end
