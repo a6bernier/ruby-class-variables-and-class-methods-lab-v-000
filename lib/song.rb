@@ -35,7 +35,10 @@ class Song
       #otherwise create a new key/value pair
 
   def self.genre_count
-    @@genres.each do |
+    count = 0
+    @@genres.each do |genre|
+      if genre_hash[genre]
+        genre_hash[genre] <<
   end
 
 end
