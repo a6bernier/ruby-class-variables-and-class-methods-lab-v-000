@@ -40,12 +40,12 @@ class Song
     @@genres.each do |genre|
       if genre_hash[genre]
         count += 1
-        genre_hash[genre]
+        genre_hash[genre] << count
       else
         genre_hash[genre]
       end
     end
-    genre_hash << count
+    genre_hash
   end
 
 
