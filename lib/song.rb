@@ -35,9 +35,10 @@ class Song
       #otherwise create a new key/value pair
 
   def self.genre_count
-    genre_count = {}
+    genre_hash = {}
+    genre_count = 0
     @@genres.each do |genre|
-      if genre == genre
+      if genre
 
   end
 
