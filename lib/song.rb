@@ -44,6 +44,7 @@ class Song
         genre_count = 1
       end
     end
+    genre_hash
   end
 
 end
