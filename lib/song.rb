@@ -27,4 +27,9 @@ class Song
     @@artists.uniq
   end
 
+  #returns hash in which the kleys are the names of each genre
+  #each genre name key should point to a value that is the number of songs that have that genre
+
+  def self.genre_count
+
 end
