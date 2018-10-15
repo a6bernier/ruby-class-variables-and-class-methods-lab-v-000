@@ -42,7 +42,6 @@ class Song
         genre_hash[genre]
       end
     end
-    genre_hash
   end
 
 
