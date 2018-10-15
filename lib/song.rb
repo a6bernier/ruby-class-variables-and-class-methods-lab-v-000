@@ -24,7 +24,10 @@ class Song
   end
 
   def artists
-    @@artists.uniq
+    if @@artists.each do |name|
+      name.uniq
+    else
+      @@artists
   end
 
 end
