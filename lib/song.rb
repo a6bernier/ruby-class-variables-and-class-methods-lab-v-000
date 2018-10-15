@@ -43,7 +43,7 @@ class Song
       else
         genre_count = 1
       end
-
+    end
   end
 
 end
