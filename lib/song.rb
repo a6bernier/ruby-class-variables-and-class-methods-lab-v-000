@@ -44,7 +44,7 @@ class Song
         genre_count = 1
       end
     end
-    genre_hash << genre.uniq
+    genre_hash 
   end
 
 end
